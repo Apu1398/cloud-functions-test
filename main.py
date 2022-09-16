@@ -13,7 +13,7 @@ def hello_world(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello World from ci/cd!'
+        return f'Hello World from ci/cd! and it has a new message'
 
 def sum(a,b):
     return a + b
