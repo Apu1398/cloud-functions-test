@@ -14,3 +14,6 @@ def hello_world(request):
         return request_json['message']
     else:
         return f'Hello World!'
+
+def sum(a,b):
+    return a + b
